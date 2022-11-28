@@ -1,0 +1,45 @@
+/* 
+
+    selector {
+        property: value;
+        property: value;
+        property: value;
+    }
+
+
+    tagname -> select all tags of a given type
+    .classname -> select all tags that have a given class
+    tagname.classname -> select ONLY tags that are ALSO a given class
+
+    > -> child symbol
+
+    tagname>tagname -> select children of a given type
+    .classname>tagname -> select children of a given type
+    tagname>.classname -> select children of a given class
+    .classname>.classname -> select children of a given class
+*/
+
+/* The next two CSS rules are what makes the unordered list on every page turn into a navigation bar. All we are doing here is making it look better. */ 
+.nav {
+
+    list-style: none;
+
+    padding-left: 0;
+
+    width: 50%;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.nav>li {
+    border-style: ridge;
+    border-radius: 10px;
+
+    display: inline-block;
+
+    background-color: red;
+
+    
+}
